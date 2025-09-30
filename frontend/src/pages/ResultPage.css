@@ -1,0 +1,57 @@
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  color: #2c3e50;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.result-list {
+  list-style-type: none;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.result-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #ecf0f1;
+}
+
+.result-list li:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.answer-correct {
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.answer-wrong {
+  color: #c0392b;
+  font-weight: bold;
+}
+
+.restart-button {
+  display: block;
+  margin: 30px auto 0;
+  background-color: #2980b9;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.restart-button:hover {
+  background-color: #21668a;
+}
