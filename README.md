@@ -9,27 +9,6 @@ Backend: Node.js, Express, SQLite
 
 Testing: Jest, Supertest
 
-Project Structure
-text
-QuizApp/
- ├── backend/
- │    ├── db.js                  # SQLite DB connection & seed logic
- │    ├── server.js              # Express app setup and server start
- │    ├── routes/
- │    │    └── quiz.js           # API routing for quiz endpoints
- │    ├── scoreCalculator.js     # Core scoring logic helper
- │    └── tests/
- │         ├── score.test.js          # Integration tests for API scoring endpoint
- │         └── calculateScore.test.js # Unit tests for scoring helper function
- ├── frontend/
- │    ├── src/
- │    │    ├── components/       # Reusable UI components (e.g., Timer)
- │    │    ├── pages/            # React pages (StartPage, QuizPage, ResultPage)
- │    │    ├── App.js            # React entry point
- │    │    ├── App.css           # Global style
- │    │    └── *.css             # Page/component-specific styles
- ├── .gitignore                 # Ignores node_modules, env, logs, etc.
- └── README.md                  # Project overview and instructions
  
 **Installation & Setup**
 Prerequisites
