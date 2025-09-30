@@ -22,12 +22,14 @@ A modern, full-stack quiz application featuring a React frontend and Node.js/Exp
 ### Clone & Install
 
 git clone https://github.com/your-username/QuizApp.git
+
 cd QuizApp
 
 
 ### Backend Setup
 
 cd backend
+
 npm install
 
 The backend uses the `sqlite3` npm package that bundles SQLite, so no separate SQLite install needed.
@@ -46,7 +48,9 @@ The backend will start on [http://localhost:5000](http://localhost:5000/).
 Open a new terminal:
 
 cd frontend
+
 npm install
+
 npm start
 
 
