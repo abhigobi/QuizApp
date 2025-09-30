@@ -1,58 +1,23 @@
-**QuizApp - Online Quiz Platform**
-A modern, full-stack quiz application featuring a React frontend and Node.js/Express backend with SQLite database. 
-The app offers an interactive quiz experience with real-time question status tracking, timer, navigation, and detailed scoring.
+# QuizApp - Online Quiz Platform
 
-**Tech Stack**
-Frontend: React, JavaScript, CSS
+A modern, full-stack quiz application featuring a React frontend and Node.js/Express backend with SQLite database. The app offers an interactive quiz experience with real-time question status tracking, timer, navigation, and detailed scoring.
 
-Backend: Node.js, Express, SQLite
+---
 
-Testing: Jest, Supertest
+## Tech Stack
 
- 
-**Installation & Setup**
-Prerequisites
-Node.js (v14+ recommended) and npm installed
+- **Frontend:** React, JavaScript, CSS  
+- **Backend:** Node.js, Express, SQLite  
+- **Testing:** Jest, Supertest  
 
-Git installed
+---
 
-Clone & Install
-git clone https://github.com/your-username/QuizApp.git
-cd QuizApp
+## Installation & Setup
 
-Backend Setup
-cd backend
-npm install
-The backend uses the sqlite3 npm package that bundles SQLite, so no separate SQLite install needed.
+### Prerequisites
 
-Start server:
-node server.js
-The backend will start on http://localhost:5000.
+- Node.js (v14+ recommended) and npm installed  
+- Git installed  
 
-Frontend Setup
-Open a new terminal:
-cd frontend
-npm install
-npm start
-The React app will open on http://localhost:3000 and automatically connect to the backend API.
+### Clone & Install
 
-
-Testing
-Running all backend tests
-
-cd backend
-npx jest tests/calculateScore.test.js  
-
-Unit tests for scoring logic helper (calculateScore.test.js).
-
-
-Contributing
-Contributions and improvements are welcome! Please open issues or pull requests.
-
-License
-MIT License
-
-Author
-Abhishek Kulkarni
-
-Thank you for checking out QuizApp! Enjoy building and learning.
